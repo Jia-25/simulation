@@ -3,20 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Observer's Reality</title>
-    <link rel="stylesheet" href="style.css">
+    <title>GETaLife</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Observer's Reality</h1>
-        <p id="game-text">Welcome, Observer. You are entering a simulated world where reality depends on your choices.</p>
-        <div id="game-visual">
-            <img id="visual-image" src="images/forest.jpg" alt="Forest" style="display:none;">
-        </div>
-        <div id="game-buttons">
-            <button onclick="makeChoice('start')">Start</button>
+    <div class="sidebar">
+        <h1 class="logo">GETaLife</h1>
+        <ul>
+            <li>Timetable</li>
+            <li>Lectures</li>
+            <li>Announcement</li>
+            <li>Marks</li>
+            <li>Course</li>
+            <li>Quiz</li>
+            <li>Socials</li>
+            <li>Budget</li>
+        </ul>
+        <div class="settings">
+            <p>Settings</p>
+            <p>My Account</p>
         </div>
     </div>
-    <script src="script.js"></script>
+    <div class="main-content">
+        <div class="grid-container">
+            <div class="grid-item">Timetable</div>
+            <div class="grid-item">Lectures</div>
+            <div class="grid-item">Announcements</div>
+            <div class="grid-item">Marks</div>
+            <div class="grid-item">Course Registration</div>
+            <div class="grid-item">Quiz Preparation</div>
+            <div class="grid-item">Socials</div>
+            <div class="grid-item">Budget</div>
+        </div>
+    </div>
 </body>
 </html>
