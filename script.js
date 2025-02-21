@@ -1,9 +1,8 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const gridItems = document.querySelectorAll(".grid-item");
-
-    gridItems.forEach(item => {
-        item.addEventListener("click", () => {
-            alert(`You clicked on ${item.textContent}`);
+document.addEventListener("DOMContentLoaded", function () {
+    const boxes = document.querySelectorAll(".box");
+    boxes.forEach(box => {
+        box.addEventListener("click", function () {
+            alert(`You clicked on ${this.textContent}`);
         });
     });
 });
